@@ -2,6 +2,7 @@
     --bg-color: #ffffff;
     --text-primary: #1d1d1f;
     --text-secondary: #86868b;
+    --accent-color: #0071e3;
     --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
@@ -61,8 +62,24 @@ header h1 {
     font-size: 1rem;
     color: var(--text-secondary);
     max-width: 300px;
-    margin: 0 auto;
+    margin: 0 auto 1.5rem auto;
     line-height: 1.5;
+}
+
+.links {
+    margin-top: 1rem;
+}
+
+.links a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 400;
+    transition: opacity 0.2s ease;
+}
+
+.links a:hover {
+    opacity: 0.7;
 }
 
 footer {
