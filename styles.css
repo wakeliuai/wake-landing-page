@@ -1,0 +1,78 @@
+:root {
+    --bg-color: #ffffff;
+    --text-primary: #1d1d1f;
+    --text-secondary: #86868b;
+    --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-bottom: 0.5rem;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.info {
+    margin-top: 2rem;
+}
+
+.location {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.divider {
+    width: 30px;
+    height: 1px;
+    background-color: #d2d2d7;
+    margin: 1rem auto;
+}
+
+.description {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    max-width: 300px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+footer {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    left: 0;
+}
+
+footer p {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
